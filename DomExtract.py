@@ -82,7 +82,7 @@ def streamline_messages():
           elif choice == 3:
               print("Select the option to search for: ")
               print(" 1) Before \n 2) Since \n 3) Before and since")
-              choice2 =  int(input("Enter the required option (1/2)>> "))
+              choice2 =  int(input("Enter the required option (1/2/3)>> "))
               if choice2 == 1:
                   d = input("Enter the date to search by (Format: (dd-<first three letters of month>-yyyy))")
                   if validate_dates(d) == True:
